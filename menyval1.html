@@ -1,0 +1,75 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Julius+Sans+One" rel="stylesheet">
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Min pannkak Hemsida</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Start</a>
+                <ul class="nav navbar-nav">
+                    <!-- Listpunkterna här blir knappar för dina olika menyval i menyn -->
+                    <li><a href="menyval1.html">Recept</a></li>
+                    <li><a href="menyval2.html">Tillbehör och Hur Man Kan Lägga Pannkakorna</a></li>
+                    <li><a href="menyval3.html">SLUT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+        <div class="container text-center">
+            <h1>Recept!</h1>
+            <h2>Amerikanska:</h2>
+            <h3>12 st</h3>
+                <h4>3 dl vetemjöl</h4>
+                <h4>2 tsk bakpulver</h4>
+                <h4>1/2 tsk salt</h4>
+                <h4>1 msk strösocker</h4>
+                <h4>2 ägg</h4>
+                <h4>2 1/2 dl mjölk</h4>
+                <h3>Blanda dem torra ingredienserna först.<br> Stek pankakorna i smör.<br>när sidan som är neråt är gyllen så måste du vända på den!</h3>
+                <h2>Klar nu kan du äta!</h2>
+            <h1>Vanliga:</h1>
+                <h2>6 port</h2>
+                <h4>3 3/4 dl vetemjöl</h4>
+                <h4>3/4 tsk salt</h4>
+                <h4>9 dl mjölk</h4>
+                <h4>4 1/2 ägg</h4>
+            <h3>Stek med smör.<br> När dem är gyllenbruna på båda sidor är dem klara!</h3>
+            <h2>klar!</h2>
+            <img src="bilder/Unknown-1.jpeg" width="350">
+
+    </main>
+</body>
+</html>
